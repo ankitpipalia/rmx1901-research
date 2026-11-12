@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+title: "RMX1901 Research: Snapdragon 710 boot-chain, EDL and Android privilege-escalation notes"
+abstract: >-
+  A sanitized research record covering Android runtime privilege escalation,
+  Qualcomm EDL/Sahara/Firehose, PBL/XBL/ABL reverse engineering, Realme
+  Deep Testing, OPPO K3 firmware compatibility, and device recovery on a
+  personally owned Realme X (RMX1901EX, SDM710). The bootloader remains
+  locked; no unlock is claimed.
+authors:
+  - family-names: Pipalia
+    given-names: Ankit
+date-released: 2026-11-13
+license: MIT
+notes: "Code is MIT; documentation is CC BY 4.0."
+license-url: https://github.com/ankitpipalia/rmx1901-research/blob/main/LICENSE
+repository-code: https://github.com/ankitpipalia/rmx1901-research
+keywords:
+  - android
+  - qualcomm
+  - snapdragon-710
+  - bootloader
+  - edl
+  - sahara
+  - firehose
+  - pbl
+  - xbl
+  - abl
+  - cve-2020-0041
+  - cve-2020-0423
+  - cve-2021-1931
+  - cve-2024-31317

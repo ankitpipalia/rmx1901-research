@@ -1,0 +1,56 @@
+# Never commit firmware, device dumps, APKs or vendor tools.
+*.img
+*.bin
+*.mbn
+*.elf
+*.so
+*.dex
+*.apk
+*.apk.idsig
+*.ozip
+*.zip
+*.7z
+*.tar
+*.gz
+*.xz
+*.exe
+*.dll
+*.msi
+*.pcap
+*.pcapng
+*.log
+*.dump
+*.core
+
+# Backups and identity/NV data
+**/backup/**
+**/backups/**
+**/persist/**
+**/modemst*/**
+**/fsg/**
+**/fsc/**
+**/opporeserve*/**
+**/oppodycnvbk*/**
+**/oppostanvbk*/**
+**/keystore/**
+**/frp/**
+**/devinfo/**
+**/misc/**
+**/sec/**
+**/ssd/**
+**/rpmb/**
+**/qfprom/**
+
+# Local environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Private research paths
+resources/
+evidence/raw/
+private/
+scratch/

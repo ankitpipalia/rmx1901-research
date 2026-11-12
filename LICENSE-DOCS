@@ -1,0 +1,23 @@
+# Documentation license
+
+The prose, tables, and diagrams in the `docs/`, `evidence/`, and
+`references/` directories of this repository are licensed under the
+**Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+
+- Human-readable summary: <https://creativecommons.org/licenses/by/4.0/>
+- Full legal code: <https://creativecommons.org/licenses/by/4.0/legalcode>
+
+You may share and adapt this material for any purpose, provided you give
+appropriate credit, link to the license, and indicate whether changes were
+made.
+
+## Exclusions
+
+This license does **not** apply to:
+
+- third-party material linked or quoted from elsewhere (see
+  [THIRD-PARTY-LICENSES.md](references/THIRD-PARTY-LICENSES.md));
+- vendor firmware, OTA packages, APKs, signed programmers, boot-chain
+  images, or device data, none of which are included in this repository;
+- the source code in `tools/` and `tests/`, which is licensed under the MIT
+  License in [LICENSE](LICENSE).
